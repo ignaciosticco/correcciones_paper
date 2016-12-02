@@ -83,6 +83,16 @@ S.~Plimpton,
   {\path{doi:http://dx.doi.org/10.1006/jcph.1995.1039}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S002199918571039X}
 
+\bibitem{Zhang}
+X.~Zhang, S.~Zhang, G.~Yang, P.~Lin, Y.~Tian, J.~Wan, L.~Yang, Investigation of
+  flow rate in a quasi-2d hopper with two symetric outlets, Physics Letters A.
+
+\bibitem{Pastor}
+J.~Pastor, A.~Garcimartin, P.~Gago, J.~Peralta, C.~Gomez, L.~Ferrer, D.~Maza,
+  D.~Parisi, L.~Pugnaloni, I.~Zuriguel, Experimental proof of faster-is-slower
+  in systems of frictional particles flowing through constrictions, Physical
+  Review E.
+
 \bibitem{lion}
 T.~W. Lion, R.~J. Allen,
   \href{http://stacks.iop.org/0953-8984/24/i=28/a=284133}{Computing the local
