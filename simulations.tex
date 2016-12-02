@@ -1,0 +1,76 @@
+\section{\label{simulations}Numerical simulations}
+
+
+
+\subsection{\label{numerical_geometry} Geometry and process simulation}
+
+
+We simulated different evacuation processes for room sizes of 20~m $\times$ 
+20~m, 30~m $\times$ 30~m and 40~m $\times$ 40~m. The rooms had one or two exit 
+doors on the same wall, as shown in Fig.~\ref{fig:19}. The doors were placed 
+symmetrically from the mid position of the wall, in order to avoid corner 
+effects. Both doors had also the same width.  \\
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{./fig0.eps}
+\caption{\label{fig:19} Snapshot of an evacuation process from a 
+$20\,\mathrm{m}\times20\,$m room, with two doors. In red we can see a blocking 
+structure around the upper door. The desired velocity was $v_d=4\,$m/s.  }
+%  done by sticco
+\end{figure}
+
+
+At the beginning of the process, the pedestrians were all equally separated 
+in a square arrangement. The occupancy density was initially set to 
+0.6~people/m$^2$, close to the allowed limiting values by current regulations 
+\cite{mysen}. They all had random velocities resembling a Gaussian distribution 
+with null mean value. The pedestrians were willing to go to the nearest exit. 
+Thus, all the pedestrians had the desired velocity $\mathbf{v}_d$ pointing to 
+the same exit door if only one door was available, or to the nearest door if two 
+exits were available.  \\
+
+In order to focus on the effects due to dual exits, we only allowed the 
+pedestrians to move individualistically, that is, neither leaderships nor 
+herding behaviors were present during the evacuation process. At any time, the 
+pedestrians knew the doors location and tried to escape by their own.  \\
+
+The simulations were supported by {\sc Lammps} molecular 
+dynamics simulator with parallel computing capabilities \cite{plimpton}. The 
+time integration algorithm followed the velocity Verlet scheme with a time step 
+of $10^{-4}\,$s. All the necessary parameters were set to the same values as in 
+previous works (see Refs.~\cite{Dorso3,Dorso4}). It was assumed that all the 
+individuals had the same radius ($r_i=0.3$~m) and weight ($m_i=70$~kg). We ran 
+30 processes for each panic situation, in order to get enough data for mean 
+values computation. \\
+
+Although the {\sc Lammps} simulator has the most common built-in functions, 
+neither the social force $\mathbf{f}_s$  nor the desire force $\mathbf{f}_d$ 
+were available. We implemented special modules (with parallel computing 
+compatibilities) for the $\mathbf{f}_s$ and $\mathbf{f}_d$ computations. 
+These computations were checked over with previous computations. \\
+
+The pedestrian's desired direction $\hat{\mathbf{e}}_d$ was updated at each 
+time step. After leaving the room, they continued moving away. No re-entering 
+mechanism was allowed. \\
+
+
+\subsection{\label{numerical_data}Measurements conditions}
+
+Simulations were run in the same way as in Refs. \cite{Dorso3,Dorso4}.  Each 
+process started with all the individuals inside the room. The measurement period 
+lasted until 80\% of the occupants left the room. If this condition could not be 
+fulfilled within the first 3000~s, the process was stopped. Data was 
+recorded at time intervals of $0.05\,$s (cf. Eq.~(\ref{eqn_2}a)).\\
+
+The simulations ran from relaxed situations ($v_d<2\,$m/s) to very stressing 
+rushes ($v_d=8\,$m/s). We registered the individuals positions and 
+velocities for each evacuation process. Thus, we were able to compute the 
+``social pressure'' through out the process and to trace the pedestrians 
+behavioural pattern.  \\
+
+%{\red The ``mean'' social pressures through out the process were computed as follows: the room was binned into squares of 1~m$\times$1~m. The cumulative social pressure for each bin was recorded every $0.05\,$s for all the processes. The cumulative number of pedestrians in each bin was also recorded. Mean values were computed as the ratio of both magnitudes.\\}
+
+%{\red The mean flow of pedestrians was computed on a 1~m$\times$1~m bined space and following the same procedure as stated above for the mean social pressure.} 
+
+
+

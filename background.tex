@@ -1,0 +1,131 @@
+\section{\label{background}Background}
+
+\subsection{The Social Force Model}
+
+The ``social force model'' (SFM) deals with the pedestrians behavioural 
+pattern in a crowded environment. The basic model states that the 
+pedestrians motion is controlled by three kind of forces: the ``desire force'', 
+the ``social force'' and the ``granular force''. The three are very different in 
+ nature, but enter into an equation of motion as follows  \\ 
+
+
+\begin{equation}
+m_i\,\displaystyle\frac{d\mathbf{v}^{(i)}}{dt}(t)=\mathbf{f}_d^{(i)}
+(t)+\displaystyle\sum_{j}\displaystyle\mathbf{f}_s^{(ij)}(t)+\displaystyle\sum_{
+j}\mathbf{f}_g^{(ij)}(t)\label{eqn_1}
+\end{equation}
+
+\noindent where $m_i$ is the mass of the pedestrian $i$, and $\mathbf{v}_i$ is 
+its corresponding velocity. The subscript $j$ represents all other pedestrians 
+(excluding $i$) and the walls. $\mathbf{f}_d$, $\mathbf{f}_s$ and 
+$\mathbf{f}_g$ are the desire force, the social force and the granular force, 
+respectively. See Refs.~\cite{Helbing1,Dorso1,Dorso2,Dorso3,Dorso4} for 
+details.\\
+
+The desire force reflects the pedestrian's own desire to go to a specific 
+place \cite{Helbing1}. He (she) needs to accelerate (decelerate) from his (her) 
+current velocity, in order to achieve his (her) own willings. As he (she) 
+reaches the velocity that makes him (her) feel comfortable, no further 
+acceleration (deceleration) is required. This velocity is the ``desired 
+velocity'' of the pedestrian $\mathbf{v}_d(t)$. The expression for 
+$\mathbf{f}_d$ in Eq.~(\ref{eqn_2}) handles this issue.  \\
+
+
+\begin{equation}
+\left\{\begin{array}{lcl}
+        \mathbf{f}_d^ {(i)}(t) & = & m_i\,\displaystyle\frac{\mathbf{v}_d^
+{(i)}(t)-\mathbf{v}_i(t)}{\tau} \\
+        & & \\
+\mathbf{f}_s^{(ij)} & = & A_i\,e^{(r_{ij}-d_{ij})/B_i}\mathbf{n}_{ij}\\
+        & & \\
+\mathbf{f}_g^{(ij)} &= &\kappa\,g(r_{ij}-d_{ij})\,\Delta
+\mathbf{v}_{ij}\cdot\mathbf{t}_{ij} \\
+       \end{array}\right.\label{eqn_2}
+\end{equation}
+
+$\tau$ means a relaxation time. Further details on each parameter can be found 
+in Refs.~\cite{Helbing1,Dorso1,Dorso2,Dorso3,Dorso4}.\\
+
+Notice that the desired velocity $\mathbf{v}_d$ has magnitude $v_d$ and points 
+to the desired place at the direction $\hat{\mathbf{e}}_d$. Thus, $v_d$ 
+represents his (her) state of anxiety, white $\hat{\mathbf{e}}_d$ indicates the 
+place where he (she) is willing to go. We assume, for simplicity, that 
+$v_d$ remains constant during an evacuation process, but $\hat{\mathbf{e}}_d$ 
+changes according to the current position of the pedestrian.   \\
+
+The social force $\mathbf{f}_s$ corresponds to the tendency of each individual 
+to keep some space between him and other pedestrians, or, between him and the 
+walls \cite{Helbing4}. The $\mathbf{f}_s$ expressed in Eq.~(\ref{eqn_2}) 
+depends on the inter-pedestrian distance $d_{ij}$. The magnitude 
+$r_{ij}=r_i+r_j$ is the sum of the pedestrian's radius, while $A_i$ and $B_i$ 
+are two fixed parameters ($r_j=0$ for the interaction with the wall). Thus, 
+$\mathbf{f}_s$ is a repulsive monotonic force that resembles the pedestrian 
+feelings for preserving his (her) \textit{private sphere} 
+\cite{Helbing1,Helbing4}. \\
+
+The granular force $\mathbf{f}_g$ appearing in Eq.~(\ref{eqn_1}) represents the 
+sliding friction between contacting people (or between people  and walls). Its 
+expression can be seen also in Eq.~(\ref{eqn_2}). It is assumed to be a linear 
+function of the relative (tangential) velocities $\Delta
+\mathbf{v}_{ij}\cdot\mathbf{t}_{ij}$ of the contacting individuals. The 
+function $g(r_{ij}-d_{ij})$ returns the argument value if $r_{ij}>d_{ij}$, 
+while $\kappa$ is a fixed parameter (see 
+Refs.~\cite{Helbing1,Dorso1,Dorso2,Dorso3,Dorso4}).\\ 
+
+
+\subsection{\label{human}Clustering structures}
+
+The time delays during an evacuation process are related to clustering people 
+as explained in Refs.~\cite{Dorso1,Dorso2}. Groups of pedestrians can 
+be defined as the set of individuals that for any member of the group (say, 
+$i$) there exists at least another member belonging to the same group ($j$) 
+in contact with the former. That is, 
+
+\begin{equation}
+ i\in\mathcal{G} \Leftrightarrow \exists j\in\mathcal{G}/d_{ij}<r_i+r_j
+\end{equation}
+
+\noindent where $\mathcal{G}$ corresponds to any set of individuals. 
+ This kind of structure is called a \textit{human cluster}. \\
+
+From all human clusters appearing during the evacuation process, those that 
+are simultaneously in contact with the walls on both sides of the exit are 
+the ones that possibly \textit{block} the way out. Thus, we are interested 
+in the minimum number of contacting pedestrians belonging to this 
+\textit{blocking cluster} that are able to link both sides of the exit. We call 
+this minimalistic group as a \textit{blocking structure}. Any blocking structure 
+is supposed to work as a barrier for the pedestrians in behind.   \\
+
+
+
+\subsection{\label{pressure}The local pressure on the pedestrians}
+
+The pressure on a single pedestrian (say, $i$) is defined as \cite{Helbing1}
+
+\begin{equation} 
+P_i=\displaystyle\frac{1}{2\pi 
+r_i}\displaystyle\sum_{j=1}^{N-1}\mathbf{f}_s^{(ij)}\cdot\mathbf{n}_{ij}
+\label{eqn_4b}
+\end{equation}
+
+$\mathbf{f}_{s}^{(ij)}$ are the forces acting on the individual $i$ due to the 
+other individuals. Recall that these forces point from any individual $j$ to 
+the individual $i$, and thus, the products 
+$\mathbf{f}_{s}^{(ij)}\cdot\mathbf{n}_{ij}$ are always positive. \\ 
+
+Notice that Eq.~(\ref{eqn_4b}) holds either if the pedestrians are in 
+contact or not. The feelings for preserving the \textit{private sphere} 
+actuate as a ``social pressure'' that makes possible for the individuals to 
+change their behavioural pattern when they come too close to each other or to 
+the walls.\\
+
+A more formal definition for the ``social pressure'' is given in
+\ref{alternative}. We show that the definition (\ref{eqn_4b}) is in accordance with the 
+one in \ref{alternative}, if the momentum $p_i$ of the individuals become 
+neglectable. Thus, the expression (\ref{eqn_4b}) is suitable for clogging 
+situations where the pedestrians move slowly. \\
+
+We further applied the formal definition for the ``social pressure'' to a 
+simple example in \ref{app}. We also checked that both definitions 
+give the same results all through Section \ref{results}. \\
+
