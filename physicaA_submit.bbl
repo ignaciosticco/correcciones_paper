@@ -64,6 +64,17 @@ G.~Frank, C.~Dorso, Evacuation under limited visibility, International Journal
 D.~Helbing, P.~Moln\'ar, Social force model for pedestrian dynamics, Physical
   Review E 51 (1995) 4282--4286.
 
+\bibitem{Pastor}
+J.~M. Pastor, A.~Garcimart\'{\i}n, P.~A. Gago, J.~P. Peralta,
+  C.~Mart\'{\i}n-G\'omez, L.~M. Ferrer, D.~Maza, D.~R. Parisi, L.~A. Pugnaloni,
+  I.~Zuriguel,
+  \href{http://link.aps.org/doi/10.1103/PhysRevE.92.062817}{Experimental proof
+  of faster-is-slower in systems of frictional particles flowing through
+  constrictions}, Phys. Rev. E 92 (2015) 062817.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.92.062817}
+  {\path{doi:10.1103/PhysRevE.92.062817}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevE.92.062817}
+
 \bibitem{mysen}
 M.~Mysen, S.~Berntsen, P.~Nafstad, P.~G. Schild,
   \href{http://www.sciencedirect.com/science/article/pii/S037877880500040X}{Occupancy
@@ -84,14 +95,23 @@ S.~Plimpton,
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S002199918571039X}
 
 \bibitem{Zhang}
-X.~Zhang, S.~Zhang, G.~Yang, P.~Lin, Y.~Tian, J.~Wan, L.~Yang, Investigation of
-  flow rate in a quasi-2d hopper with two symetric outlets, Physics Letters A.
+X.~Zhang, S.~Zhang, G.~Yang, P.~Lin, Y.~Tian, J.-F. Wan, L.~Yang,
+  \href{http://www.sciencedirect.com/science/article/pii/S037596011600089X}{Investigation
+  of flow rate in a quasi-2d hopper with two symmetric outlets}, Physics
+  Letters A 380~(13) (2016) 1301 -- 1305.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.physleta.2016.01.046}
+  {\path{doi:http://dx.doi.org/10.1016/j.physleta.2016.01.046}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037596011600089X}
 
-\bibitem{Pastor}
-J.~Pastor, A.~Garcimartin, P.~Gago, J.~Peralta, C.~Gomez, L.~Ferrer, D.~Maza,
-  D.~Parisi, L.~Pugnaloni, I.~Zuriguel, Experimental proof of faster-is-slower
-  in systems of frictional particles flowing through constrictions, Physical
-  Review E.
+\bibitem{kunte}
+A.~Kunte, P.~Doshi, A.~V. Orpe,
+  \href{http://link.aps.org/doi/10.1103/PhysRevE.90.020201}{Spontaneous jamming
+  and unjamming in a hopper with multiple exit orifices}, Phys. Rev. E 90
+  (2014) 020201.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.90.020201}
+  {\path{doi:10.1103/PhysRevE.90.020201}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevE.90.020201}
 
 \bibitem{lion}
 T.~W. Lion, R.~J. Allen,

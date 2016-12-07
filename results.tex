@@ -35,10 +35,10 @@ the evacuation performance in half of the time that demands the $d_g=1\,$m
 separation configuration. Other separation distances (not shown) exhibit the 
 same qualitative pattern as the example presented in Fig.~\ref{fig:7}. 
 Therefore, it is clear that while the total width of the opening 
-remains unchanged, splitting this width into to symmetric exits affects 
+remains unchanged, splitting this width into two symmetric exits affects 
 significantly the evacuation performance. \\
 
-{\color{red} Notice that there is a slightly negative slope for velocities higher than 6~m/s. This behavior will be discussed in Section~\ref{large_regime} }
+{\color{red} Notice that there is a slightly negative slope for velocities higher than 6~m/s. This behavior will be discussed in Section~\ref{large_regime}. }\\
 
 We made further research on the $d_g=0$ and $d_g>0$ scenarios. The 
 former is investigated in Section \ref{single_double}, while the latter is left 
@@ -116,7 +116,7 @@ crowd, see Section \ref{null_gap_patterns}. }
 For a better understanding on how the pedestrians are (intermittently) released 
 from high pressures in the wide opening situation, we pictured the whole scene 
 into a pressure contour map and a mean stream path map for all the individuals. 
-Fig.~\ref{fig:3} shows the pressure levels ($P_i$) for the 
+Figs.~\ref{fig:4} to~\ref{fig:3} show the pressure levels ($P_i$) for the 
 clogging area. The warm colors are associated to high pressure values. These 
 values are close to the corresponding maximum pressure values (not shown). Thus, 
 the warm regions define the places where the pedestrians slow down most of the 
@@ -124,52 +124,27 @@ time. They are expected to get released only for short periods of time. On the
 contrary, the regions represented in cold colors (low mean pressure) are those 
 where the individuals are able to get released for longer time periods. \\
 
-Fig.~\ref{fig:5} represents the mean stream lines during the evacuation 
-process. It completes the stop-and-go picture since it exhibits the 
-released paths for leaving the room. Notice that the stream lines pass 
-through the low pressure regions. That is, it can be seen in Fig.~\ref{fig:5} 
+{\color{red} Figs.~\ref{fig:5bis} to~\ref{fig:5} represent the mean stream lines during the evacuation 
+process. The three exhibits the 
+released paths for leaving the room, but Fig.~\ref{fig:5} shows more gathering lines in the central path (higher flow)}. Notice that the stream lines pass 
+through the low pressure regions {\color{red} in Fig.~\ref{fig:5}}. That is, it can be seen in Fig.~\ref{fig:5} 
 that the stream lines gather along the middle of the clogging area, 
-where ``cold'' pressure colors can be found (cf. Fig.~\ref{fig:3}). The 
+where ``cold'' pressure colors can be found in Fig.~\ref{fig:3}. The 
 ``warm'' pressure colors are placed on the sides of this region.    \\ 
 
-%%%%%% Vieja "figura 4" (version PDF) %%%%%%%%
 
-%\begin{figure*}[!htbp]
-%\subfloat[Mean pressure contour lines (N.m$^{-1}$ units). Colors in the on-line version only.\label{fig:3}]
-%{\includegraphics[width=0.75\columnwidth]{./fig4.eps}
-% done with fig3_version0.py
-%}\hfill
-%\subfloat[Mean stream lines. The lines connect the normalized velocity field ($v/v_\mathrm{max}$). The arrows indicate the stream direction.\label{fig:5}]{
-%\includegraphics[width=0.75\columnwidth]{./fig5.eps}
-% done with fig5_version0.py
-%}
-%\caption{\label{fig:3and5}Mean pressure and stream lines computed from 30 evacuation processes until 100 pedestrians left the room ($20\,\mathrm{m}\times20\,\mathrm{m}$ size). Data was recorded on a square grid of $1\,\mathrm{m}\times1\,\mathrm{m}$ and then splined to get smooth curves. The red lines at $x=20$~m represent the walls on the right of the room. There is only one opening of $3d_w=3.6$~m width (null separation distance between doors of width $3d_w/2$). The pedestrian's desired velocity was $v_d=4\,$m/s.}
-%\end{figure*}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%% Flow figures %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Pressure figures %%%%%%%%%%%%%%%%%%
 
 \begin{center}
 \CT
-\subfloat[Opening of $d_w=1.2$~m width.]{\includegraphics[width=0.75\columnwidth]{./flujo1_2_papercor.eps}}\quad
-\subfloat[Opening of $2d_w=2.4$~m width.]{\includegraphics[width=0.75\columnwidth]{./flujo2_4_papercor.eps}}
+\subfloat[Opening of $d_w=1.2$~m width.\label{fig:4}]{\includegraphics[width=0.75\columnwidth]{./fig6.eps}}\quad
+\subfloat[Opening of $2d_w=2.4$~m width. \label{fig:2}]{\includegraphics[width=0.75\columnwidth]{./fig7.eps}}
 
-\subfloat[Opening of $3d_w=3.6$~m width.]{\includegraphics[width=0.75\columnwidth\label{fig:5}]{./fig5.eps}}\quad
-\captionof{figure}{Mean stream lines computed from 30 
-evacuation processes until 100 pedestrians left the room 
-($20\,\mathrm{m}\times20\,\mathrm{m}$ size). The lines connect the normalized velocity field ($v/v_\mathrm{max}$). The arrows indicate the stream direction. Data was recorded on a square grid 
-of $1\,\mathrm{m}\times1\,\mathrm{m}$ and then splined to get smooth curves. 
-The red lines at $x=20$~m represent the walls on the right of the room. 
-The pedestrian's desired velocity was $v_d=4\,$m/s for all the cases.}
+\subfloat[Opening of $3d_w=3.6$~m width. \label{fig:3}]{\includegraphics[width=0.75\columnwidth]{./fig4.eps}}\quad
+\captionof{figure}{\label{fig:2and4} Mean pressure contour lines computed from 30 evacuation processes until 100 pedestrians left the room ($20\,\mathrm{m}\times20\,\mathrm{m}$ size). The scale bar on the right is 
+expressed in N.m$^{-1}$ units (see text for details). The red lines at $x=20$~m represent the walls on the right of the room. The pedestrian's desired velocity was $v_d=4\,$m/s. The contour lines were computed on a square grid of $1\,\mathrm{m}\times1\,\mathrm{m}$ and then splined to get smooth curves. Level colors can be seen in the on-line version only.}
 
 \end{center}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
 
 
 
@@ -195,25 +170,33 @@ is acting on the pedestrians, as shown in the (normalized) pressure evolution
 in Fig.~\ref{fig:9}. The corresponding velocity evolution (Fig.~\ref{fig:9}) 
 informs that the pedestrians in this region experience a slow down. \\
 
-%%%%%%%%%%%%%%%% Pressure figures %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Flow figures %%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{center}
 \CT
-\subfloat[Opening of $d_w=1.2$~m width.\label{fig:4}]{\includegraphics[width=0.75\columnwidth]{./fig6.eps}}\quad
-\subfloat[Opening of $2d_w=2.4$~m width. \label{fig:2}]{\includegraphics[width=0.75\columnwidth]{./fig7.eps}}
+\subfloat[Opening of $d_w=1.2$~m width.]{\includegraphics[width=0.75\columnwidth\label{fig:5bis}]{./flujo1_2_papercor.eps}}\quad
+\subfloat[Opening of $2d_w=2.4$~m width.]{\includegraphics[width=0.75\columnwidth\label{fig:5tris}]{./flujo2_4_papercor.eps}}
 
-\subfloat[Opening of $3d_w=3.6$~m width. \label{fig:3}]{\includegraphics[width=0.75\columnwidth]{./fig4.eps}}\quad
-\captionof{figure}{\label{fig:2and4} Mean pressure contour lines computed from 30 evacuation processes until 100 pedestrians left the room ($20\,\mathrm{m}\times20\,\mathrm{m}$ size). The scale bar on the right is 
-expressed in N.m$^{-1}$ units (see text for details). The red lines at $x=20$~m represent the walls on the right of the room. The pedestrian's desired velocity was $v_d=4\,$m/s. The contour lines were computed on a square grid of $1\,\mathrm{m}\times1\,\mathrm{m}$ and then splined to get smooth curves. Level colors can be seen in the on-line version only.}
+\subfloat[Opening of $3d_w=3.6$~m width.]{\includegraphics[width=0.75\columnwidth\label{fig:5}]{./fig5.eps}}\quad
+\captionof{figure}{Mean stream lines computed from 30 
+evacuation processes until 100 pedestrians left the room 
+($20\,\mathrm{m}\times20\,\mathrm{m}$ size). The lines connect the normalized velocity field ($v/v_\mathrm{max}$). The arrows indicate the stream direction. Data was recorded on a square grid 
+of $1\,\mathrm{m}\times1\,\mathrm{m}$ and then splined to get smooth curves. 
+The red lines at $x=20$~m represent the walls on the right of the room. 
+The pedestrian's desired velocity was $v_d=4\,$m/s for all the cases.}
 
 \end{center}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 {\color{red} Notice, once again, that the results shown in Figs.~\ref{fig:8and9} only resembles the 
-situation in the middle of the room. Figs~\ref{fig:5} and Figs.~\ref{fig:2and4} exhibit 
-the situation for the whole crowd. However, the mid path in ``cold" colors in~\ref{fig:3} is
+situation in the middle of the room. Fig.~\ref{fig:5} and Fig.~\ref{fig:3} exhibit 
+the situation for the whole crowd. However, the mid-path in ``cold'' colors in Fig.~\ref{fig:3} is
 the most meaningful region to our research, since it completes the picture
 for the stop-and-go process, firstly evidenced in Fig.~\ref{fig:8}.
-}
+}\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -223,10 +206,10 @@ The widening of the single door increases the pedestrian's flux, as asserted in
 Ref.~\cite{daoliang1}. In the narrow situation (see Fig.~\ref{fig:9}), 
 the pedestrians experience a slow down. The corresponding time delays have been 
 associated to blocking structures (see Refs.~\cite{Dorso1,Dorso2}) and causes 
-the pressure acting on the nearby individuals to rise. Fig.~\ref{fig:4} 
+the pressure acting on the nearby individuals to raise. Fig.~\ref{fig:4} 
 resembles this situation. However, as the opening widens (\emph{i.e.} the null 
 separation situation), the pressure pattern changes qualitatively (see 
-Fig.~\ref{fig:3} and Fig.~\ref{fig:2}), allowing the pedestrians in the middle 
+Fig.~\ref{fig:2} and Fig.~\ref{fig:3}), allowing the pedestrians in the middle 
 of the clogging area to make a pathway to the exit. This pathway corresponds to 
 the breaking of the blocking structures.   \\
 
@@ -256,9 +239,9 @@ means a single door of $2d_w$ width. The desired velocity was $v_d=4\,$m/s. }
 \end{figure}
 
 The evacuation time as a function of $d_g$ shown in Fig.~\ref{fig:13} is one 
-of our main results. The worsening in the evacuation performance rises to a 
+of our main results. The worsening in the evacuation performance raises to a 
 maximum value at $1\,$m while its slope changes sign for $d_g>1\,$m. Thus, 
-$d_g=1\,$m appears to be the worst evacuation scenario for the 
+$d_g=1\,$m appears to be the worse evacuation scenario for the 
 $20\,\mathrm{m}\times20\,\mathrm{m}$ room with 225 individuals and two 
 doors of $d_w=1.2\,$m each (see Fig.~\ref{fig:13}).  \\
 
@@ -302,7 +285,7 @@ to negative or positive values (for $d_g>1\,$m). This phenomenon has not been
 studied in the literature, to our knowledge. \\
 
 We can resume the results in Fig.~\ref{fig:1} in the following way: the 
-evacuation time rises when the doors separation increases from a wide opening 
+evacuation time raises when the doors separation increases from a wide opening 
 (null separation distance) to the distance $d_g\simeq1\,$m. At this gap, the 
 evacuation time slope changes notably, entering a much slowly 
 varying regime towards an asymptotic value (for $d_g\gg1\,$m).  The former can 
@@ -319,14 +302,12 @@ current patterns with those presented in Section~\ref{null_gap_patterns}.
 Fig.~\ref{fig:16} shows the mean pressure pattern for the separation distance 
 $d_g=1.5\,$m, that is, close to the gap value where the sharp change in the 
 slope occurs. The differences between Fig.~\ref{fig:16} and 
-Fig.~\ref{fig:2and4} are noticeable. We can now see a wide region in the center of 
+Figs.~\ref{fig:2and4} are noticeable. We can now see a wide region in the center of 
 the clogging area representing the high pressure ($P_i$) acting 
 on each pedestrian (warm colors in Fig.~\ref{fig:16}). The regularity in the 
 colors of this region is meaningful: the high pressure acting on the pedestrians 
 does not allow a regular stream (pathway) to the exit. This is in agreement with 
-the evacuation time worsening shown in Fig.~\ref{fig:13}.   \\
-
-{\color{red} In all cases the pressure maps showed a resemblance with the ones reported in Ref.~\cite{Zhang}}\\
+the evacuation time worsening shown in Fig.~\ref{fig:13}. {\color{red} Furthermore, in all cases the pressure maps show a resemblance with those reported in Ref.~\cite{Zhang}.}\\
 
 \begin{figure*}[!htbp]
 \subfloat[Separation distance of $d_g=1.5$~m.\label{fig:16}]{
@@ -349,7 +330,7 @@ colors can be seen in the on-line version only.}
 
 
 Fig.~\ref{fig:16} suggests that blocking structures might be present for long 
-time periods, since the pedestrians cannot manage to get out easily. We 
+time periods, since the pedestrians cannot manage to get out easily.  {\color{red} The relevance of this blocking structures has also been achieved for other kind of systems (see Ref.~\cite{kunte}). } We 
 examined this possibility through the \textit{blocking probability}. In this 
 context, the blocking probability is associated to the ratio between the time 
 that each door remains blocked with respect to the total evacuation time (cf. 
@@ -380,7 +361,7 @@ until $d_g\simeq1\,$m, while the simultaneous blockings weaken as the gap
 (separation distance $d_g$) increases. The single door blockings resemble the 
 response in Fig.~\ref{fig:13}, and thus, we conclude that this kind of 
 blockings should play an important role in the increase of the evacuation time 
-for small gaps $d_g$. Notice that single door blocking probability explains the 
+for small gaps $d_g$. Notice that the single door blocking probability explains the 
 75\% of the evacuation time, as can be seen in Fig.~\ref{fig:14}. \\
 
 The results so far moved us to focus closer on the dynamics around each door. 
@@ -449,7 +430,7 @@ $40\times40\,$m room (for $d_g>1\,$m). Thus, as the number of pedestrians
 increases, the slope of the evacuation time changes sign. However, this does not 
 occur for the blocking probability (see Fig.~\ref{fig:15}). The slope of the 
 blocking probability remains always negative for an increasing number of 
-pedestrians (and desire velocities). Therefore, the changes in the slope 
+pedestrians (and desired velocities). Therefore, the changes in the slope 
 observed in Fig.~\ref{fig:1} cannot be explained by changes in the blocking 
 time (\textit{i.e} blocking probability).   \\
 
@@ -465,8 +446,8 @@ whole bulk (left-hand side) is related to the total desire force contribution
 ways: if the desire force of the individuals (\emph{i.e.} anxiety levels) 
 changes, or, if the crowd size changes. An increase on either 
 the number of evacuating pedestrians ($N$) or their corresponding anxiety 
-level ($v_d$), will increase the pressure of the whole bulk. {\color{red} This result is in accordance with the experiment performed in Ref.~\cite{Pastor}.}
-A simple example is presented in the Appendix. \\
+level ($v_d$), will increase the pressure of the whole bulk. {\color{red} This result is in agreement with the experiments performed in Ref.~\cite{Pastor}.}
+We also present a simple example in the ~\ref{app}. \\
 
 Fig.~\ref{fig:1} exhibits the evacuation time for an increasing number of 
 pedestrians. But, an increase in the pedestrians anxiety level should  
@@ -477,7 +458,7 @@ around $d_g=2r_{ij}$. Also the slope changes as the desired velocity ($v_d$) is
 increased (\emph{i.e.} higher anxiety level). This confirms that the social 
 pressure is responsible the slope behaviour shown in Fig.~\ref{fig:1}. \\
 
-{\color{red} Notice that Fig.~\ref{fig:12} exhibits a crossover for a gap of 0.5~m. This crossover is related to the slightly negative slope shown in Fig.~\ref{fig:7}. We want to stress the fact that this crossover appears for desired velocities between 6~m/s and 8~m/s (see  Fig~\ref{fig:7}), but not for increasing number of pedestrians at lower desired velocities (see Fig.~\ref{fig:15}). Despite the fact that we are able to see a crossover in the range of 6~m/s to 8~m/s, we prevent the reader that not noticeable consequences were found that could affect further conclusions, since the ``faster is slower'' effect remains valid within the sudied range.}\\
+{\color{red} Notice that Fig.~\ref{fig:12} exhibits a crossover for a gap of 0.5~m. This crossover is related to the slightly negative slope shown in Fig.~\ref{fig:7}. We want to stress the fact that this crossover appears for desired velocities between 6~m/s and 8~m/s (see  Fig.~\ref{fig:7}), but not for increasing number of pedestrians at lower desired velocities (see Fig.~\ref{fig:15}). Despite the fact that we are able to see a crossover in the range of 6~m/s to 8~m/s, we prevent the reader that not noticeable consequences were found that could affect further conclusions, since the ``faster is slower'' effect remains valid within the studied range.}\\
 
 
 \begin{figure}

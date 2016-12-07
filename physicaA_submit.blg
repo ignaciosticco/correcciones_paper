@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: physicaA_submit.aux
 The style file: elsarticle-num.bst
 Database file #1: paper.bib
-You've used 19 entries,
+You've used 20 entries,
             2937 wiz_defined-function locations,
-            795 strings with 7932 characters,
-and the built_in function-call counts, 5390 in all, are:
-= -- 507
-> -- 187
+            815 strings with 8488 characters,
+and the built_in function-call counts, 6078 in all, are:
+= -- 588
+> -- 197
 < -- 0
-+ -- 75
-- -- 56
-* -- 397
-:= -- 791
-add.period$ -- 21
-call.type$ -- 19
-change.case$ -- 19
++ -- 79
+- -- 59
+* -- 487
+:= -- 882
+add.period$ -- 25
+call.type$ -- 20
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 150
-empty$ -- 578
-format.name$ -- 71
-if$ -- 1381
+cite$ -- 20
+duplicate$ -- 168
+empty$ -- 652
+format.name$ -- 75
+if$ -- 1552
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 19
-newline$ -- 70
-num.names$ -- 19
-pop$ -- 96
+int.to.str$ -- 20
+missing$ -- 20
+newline$ -- 79
+num.names$ -- 20
+pop$ -- 97
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 320
+skip$ -- 337
 stack$ -- 0
-substring$ -- 330
-swap$ -- 24
+substring$ -- 399
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 36
-width$ -- 21
-write$ -- 164
+while$ -- 40
+width$ -- 22
+write$ -- 183
