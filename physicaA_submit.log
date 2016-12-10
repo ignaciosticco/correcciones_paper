@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.12)  7 DEC 2016 14:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.12)  10 DEC 2016 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1112,11 +1112,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4127 strings out of 494985
  61527 string characters out of 6180356
- 120453 words of memory out of 5000000
+ 121453 words of memory out of 5000000
  7235 multiletter control sequences out of 15000+600000
  14640 words of font info for 55 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,11n,47p,1000b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,47p,984b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
@@ -1142,7 +1142,7 @@ cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on physicaA_submit.pdf (37 pages, 2062824 bytes).
+Output written on physicaA_submit.pdf (37 pages, 2062554 bytes).
 PDF statistics:
  404 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams
